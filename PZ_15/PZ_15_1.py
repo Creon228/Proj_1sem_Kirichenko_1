@@ -3,7 +3,7 @@
 
 def umnozenie(b):
     for i in range(0,len(matriza)): #перебираем элементы матрицы
-        matriza[i][n-1] = matriza[i][n-1] * 2 #умножаем каждый элемент на 2
+        matriza[n-1][i] = matriza[n-1][i] * 3 #умножаем каждый элемент на 2
     return matriza
 
 matriza = [[2,5,7], #задаем матрицу
